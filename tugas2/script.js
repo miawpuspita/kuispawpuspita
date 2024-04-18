@@ -12,4 +12,8 @@ function tampil(){
     
     data.push(nama);
     console.log(nilai);
+
+    document.getElementById("nama").innerHTML = "Arif";
+    document.getElementById("npm").innerHTML = 2226240001;
+    document.getElementById("nilai").innerHTML = 90;
 }
