@@ -5,9 +5,10 @@ let listmhs = document.getElementById("listhobi")
 document.getElementById("nama").innerHTML = "Arif";
 document.getElementById("hobi").innerHTML = "belajar coding";
 
-data.forEach(showhobi);
 
-
+function showhobi(velue, index){
+    console.log(velue);
+    listhobi.innerHTML += "<li>" + velue + "</li>";
 }
 
 
